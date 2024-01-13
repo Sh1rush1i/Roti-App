@@ -21,7 +21,7 @@
         <activity android:name=".Home"/>
         <activity android:name=".Profile"/>
         <activity android:name=".Login"/>
-        <activity android:name=".TabLayoutAct"/>
+        <activity android:name=".TabLay"/>
         <activity android:name=".Address"/>
         <activity
             android:name=".Splash"

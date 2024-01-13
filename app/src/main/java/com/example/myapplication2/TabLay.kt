@@ -11,7 +11,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
 
-class TabLayoutAct : AppCompatActivity() {
+class TabLay : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,8 +49,8 @@ class TabLayoutAct : AppCompatActivity() {
 
         override fun createFragment(position: Int): Fragment {
             return when (position) {
-                0 -> FragmentViewPager1.newInstance()
-                1 -> FragmentViewPager2.newInstance()
+                0 -> FragView1.newInstance()
+                1 -> FragView2.newInstance()
                 else -> throw IllegalArgumentException("Invalid position: $position")
             }
         }

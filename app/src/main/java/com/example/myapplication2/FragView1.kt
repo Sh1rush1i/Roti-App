@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class FragmentViewPager1 : Fragment() {
+class FragView1 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -15,8 +15,8 @@ class FragmentViewPager1 : Fragment() {
     }
 
     companion object {
-        fun newInstance(): FragmentViewPager1 {
-            return FragmentViewPager1()
+        fun newInstance(): FragView1 {
+            return FragView1()
         }
     }
 }
